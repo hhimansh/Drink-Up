@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/styleCheckout.css">
+    <script type="text/javascript" src="js/check.js"></script>
+    <!-- <script src="js/script.js" type="text/javascript"></script> -->
+</head>
+<body>
+    <h1>DRINK UP</h1>
+    <h2>Your favorite drinks only click away</h2>
+    <form name="drinkUp" method="Post" onsubmit="return checkOut();" action="">
+        <div class="form1">
+            <h2>Select your drinks</h2>
+            <label for="apple">Apple Drink ($8)</label>
+            <input type="text" id="apple" placeholder="Enter Quantity">
+            <br>
+            <label for="strawberry">Strawberry Drink ($12)</label>
+            <input type="text" id="strawberry" placeholder="Enter Quantity">
+            <br>
+            <label for="lemon">Lemon Drink ($6)</label>
+            <input type="text" id="lemon" placeholder="Enter Quantity">
+            <br>
+            <label for="peach">Peach Drink ($15)</label>
+            <input type="text" id="peach" placeholder="Enter Quantity">
+            <br>
+            <label for="lester">Lester Mix Drink ($20)</label>
+            <input type="text" id="lester" placeholder="Enter Quantity">
+            <br>
+            <p id="errDisplay1"></p>
+        </div>    
+        <div class="form2">
+            <h2>Fill your details</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <br>
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" placeholder="xxx-xxx-xxxx">
+            <br>
+            <label for="cardNumber">Credit Card Number</label>
+            <input type="text" id="cardNumber" placeholder="xxxx-xxxx-xxxx-xxxx">
+            <br>
+            <label for="cardMonthExpiry">Credit Card Expiry Month</label>
+            <input type="text" id="cardMonthExpiry" placeholder="XX">
+            <br>
+            <label for="cardYearExpiry">Credit Card Expiry Year</label>
+            <input type="text" id="cardYearExpiry" placeholder="YYYY">
+            <br>
+            <p id="errDisplay2"></p>
+        </div>
+        <input type="submit" value="Submit" class="btn btn2">
+    </form>
+    <p id="finalReceipt"></p>
+</body>
+</html>
