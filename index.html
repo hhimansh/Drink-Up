@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" type="text/javascript"></script>
+    <title>Drink UP</title>
+</head>
+<body>
+    <header>Drink UP</header>
+    <nav>
+        <a href="#">Customer Service</a>
+        <a href="#">Deals</a>
+        <a href="#">Contact</a>
+        <a href="#">Home</a>
+    </nav>
+    <div><a href="checkout.html">Checkout</a></div>
+    
+    <h1>Your favorite drinks only click away</h1>
+    <div id="message"></div>
+    <div class="row1 item1">
+        <img src="images/drink1.jpg" alt="Three drinks with ice">
+        <p class="paraDesc">Apple Drink ($8)<br>
+            <label for="quantity">Quantity</label>
+            <input type="text" id="quantityApple" name="quantity"><br>
+            <button class="btnCart" id="apple" onclick="calApple()">Add to cart</button>
+        </p>
+    </div>
+    <div class="row1 item2">
+        <img src="images/drink2.jpg" alt="Two drinks on a plate">
+        <p class="paraDesc">Strawberry Drink ($12)<br>
+            <label for="quantity">Quantity</label>
+            <input type="text" id="quantityStrawberry" name="quantity"><br>
+            <button class="btnCart" id="strawberry" onclick="calStrawberry()">Add to cart</button
+        </p>
+    </div>
+    <div class="row1 item3">
+        <img src="images/drink3.jpg" alt="Barkeep preparing a drink">
+        <p class="paraDesc">Lemon Drink ($6)<br>
+            <label for="quantity">Quantity</label>
+            <input type="text" id="quantityLemon" name="quantity"><br>
+            <button class="btnCart" id="lemon" onclick="calLemon()">Add to cart</button>
+        </p>
+    </div>
+
+    <div style="clear: both;"></div>
+
+    <div class="row2 item4">
+        <img src="images/drink4.jpg" alt="Two drinks with soda on a table">
+        <p class="paraDesc">Peach drink ($15)<br>
+            <label for="quantity">Quantity</label>
+            <input type="text" id="quantityPeach" name="quantity"><br>
+            <button class="btnCart" id="peach" onclick="calPeach()">Add to cart</button>
+        </p>
+    </div>
+    <div class="row2 item5">
+        <img src="images/drink5.jpg" alt="Five drinks of different color">
+        <p class="paraDesc">Lester Mix drink ($20)<br>
+            <label for="quantity">Quantity</label>
+            <input type="text" id="quantityLester" name="quantity"><br>
+            <button class="btnCart" id="lester" onclick="calLester()">Add to cart</button>
+        </p>
+    </div>
+    <div class="row2 item6">
+        <img src="images/drink6.jpg" alt="Two lemon drinks">
+        <p class="paraDesc">Pomegranate smoothie ($9)<br>
+            <label for="quantity">Quantity</label>
+            <input type="text" id="quantityPomegranate" name="quantity"><br>
+            <button class="btnCart" id="pome" onclick="calGrain()">Add to cart</button>
+        </p>
+    </div>
+    <div style="clear: both;"></div><br><br>
+    
+    <footer>&copy; 2022 DrinkUp.com</footer>
+</body>
+</html>
